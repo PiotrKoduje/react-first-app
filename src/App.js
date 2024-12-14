@@ -7,6 +7,7 @@ const App = () => {
     <div>
       <Hero />
       <SearchForm />
+      {/* ${SearchForm()} */}
       <List />
     </div>
   );
