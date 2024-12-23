@@ -5,8 +5,10 @@ import Button from '../Button/Button.js';
 const SearchForm = () => {
   return(
     <form className={styles.searchForm}>
-      <TextInput placeholder="Search..."/>
-      <Button text="search"/>
+      <TextInput placeholder="Search..." />
+      <Button>
+        <span className='fa fa-search' />
+      </Button>
     </form>
   );
 };
