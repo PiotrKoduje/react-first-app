@@ -9,7 +9,6 @@ import { updateSearching, getSearchString } from '../../redux/store.js';
 const SearchForm = () => {
   
   const searchStringFromStore = useSelector(getSearchString);
-  
   const [searchString, setSearchString] = useState(searchStringFromStore);
   const dispatch = useDispatch();
 

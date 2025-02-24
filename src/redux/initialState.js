@@ -32,7 +32,8 @@ const initialState = {
     { id: 3, columnId: 2, title: 'Harry Potter' },
     { id: 4, columnId: 2, title: 'Star Wars' },
     { id: 5, columnId: 3, title: 'The Witcher' },
-    { id: 6, columnId: 3, title: 'Skyrim' }
+    { id: 6, columnId: 3, title: 'Skyrim' },
+    { id: 7, columnId: 4, title: 'Smells Like Teen Spirit - Możdzer Danielsson Fresco' }
   ],
 
   lists: [
@@ -43,8 +44,8 @@ const initialState = {
     },
    {
       id: '2',
-      title: 'Test list',
-      description: 'Lorem Ipsum'
+      title: 'Music',
+      description: 'The best of'
    }
   ],
 
