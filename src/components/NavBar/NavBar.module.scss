@@ -15,15 +15,15 @@
     padding-left: 15px;
     cursor: pointer;
     transition: $transition;
-
-    &:hover{
-      color: $color-success
-    }
   }
 
   a{
     color: $color-light;
     text-decoration: none;
+  }
+
+  a.linkActive{
+    color: $color-warning;
   }
 
   ul{
@@ -35,10 +35,6 @@
       font-weight: bold;
       cursor: pointer;
 
-      &:hover a {
-        color: $color-success;
-      }
-
       a{
         text-decoration: none;
         color: $color-light;
@@ -47,3 +43,4 @@
     }
   }
 }
+

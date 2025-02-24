@@ -18,7 +18,7 @@ const App = () => {
           <Route path="*" element={<NoMatch />} />
         </Routes>
       </Container>
-    </main>
+    </main> 
   );
 };
 
