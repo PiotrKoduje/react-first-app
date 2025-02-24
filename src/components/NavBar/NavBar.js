@@ -11,8 +11,6 @@ const NavBar = () => {
           <span className={styles.icon + ' fa fa-tasks'}></span>
         </a>
         <ul>
-          {/* <li><a href='/'>Home</a></li> */}
-          {/* <li><Link to="/">Home</Link></li> */}
           <li><NavLink className={({ isActive }) => isActive ? styles.linkActive : undefined} to="/">Home</NavLink></li>
           <li><NavLink className={({ isActive }) => isActive ? styles.linkActive : undefined} to="/favorite">Favorite</NavLink></li>
           <li><NavLink className={({ isActive }) => isActive ? styles.linkActive : undefined} to="/about">About</NavLink></li>
