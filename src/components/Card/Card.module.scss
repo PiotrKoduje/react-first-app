@@ -9,6 +9,12 @@
   border-radius: $radius;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-weight: bold;
   color: $color-dark;
+}
+
+.title{
+  //display: inline-flex;
+  width: 70%;
 }

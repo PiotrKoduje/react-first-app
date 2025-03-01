@@ -1,0 +1,26 @@
+@import '../../styles/settings.scss';
+
+.container{
+  display: flex;
+  align-items: center;
+
+  .star{
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .trash{
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 15px;
+    transition: $transition;
+
+    &:hover{
+      color: red;
+    }
+  }
+}
+
+.isFavorite{
+  color: orange;
+}

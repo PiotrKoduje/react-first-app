@@ -1,9 +1,15 @@
 import styles from './Card.module.scss';
-import ButtonFavorite from '../ButtonFavorite/ButtonFavorite';
+import CartButtons from '../CartButtons/CartButtons';
 
 const Card = props => {
   return(
-    <li className={styles.card}>{props.title}<ButtonFavorite isFavorite={props.isFavorite} cardId={props.cardId}/></li>
+    <li className={styles.card}>
+      <span className={styles.title}>{props.title}</span>
+      <CartButtons
+       isFavorite={props.isFavorite} 
+        cardId={props.cardId}
+      />
+    </li>
   );
 };
 

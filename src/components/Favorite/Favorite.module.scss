@@ -9,7 +9,7 @@
 
 .column {
   flex-shrink: 0;
-  width: calc(33% - 12px);
+  width: 50%;
   background: $color-light;
   margin: 0 auto;
   padding: ($base-size * 1.5);
@@ -20,4 +20,10 @@
 
 .hide{
   display: none;
+}
+
+@media(max-width: 768px){
+  .column{
+    width: 80%;
+  }
 }
