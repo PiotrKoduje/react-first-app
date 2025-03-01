@@ -1,21 +1,21 @@
 .cardForm{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
 }
 
 .changeInput{
-    margin: 0;
+  margin: 0;
 }
 
 .changeButton{
-    margin: 0;
+  margin: 0;
 }
 
 @media (max-width: 1140px){
-    .cardForm{
-     flex-direction: column;
-    }
- }
+  .cardForm{
+    flex-direction: column;
+  }
+}

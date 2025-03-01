@@ -2,7 +2,7 @@ import styles from './Favorite.module.scss';
 import Container from '../Container/Container';
 import PageTitle from '../PageTitle/PageTitle';
 import { useSelector } from 'react-redux';
-import { getFavoriteCards } from '../../redux/store';
+import { getFavoriteCards } from '../../redux/cardsReducer.js';
 import Card from '../Card/Card';
 import clsx from 'clsx';
 

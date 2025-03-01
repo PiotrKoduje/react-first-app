@@ -1,6 +1,6 @@
 import styles from './ButtonFavorite.module.scss';
 import clsx from 'clsx';
-import { toggleCardFavorite } from '../../redux/store';
+import { toggleCardFavorite } from '../../redux/cardsReducer';
 import { useDispatch } from 'react-redux';
 
 const ButtonFavorite = props => {

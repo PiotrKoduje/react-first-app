@@ -2,9 +2,9 @@
 @import '../../styles/settings.scss';
 
 .warning{
-    color: $color-warning;
-    text-align: center;
-    font-size: ($base-size*2);
+  color: $color-warning;
+  text-align: center;
+  font-size: ($base-size*2);
 }
 
 .column {
@@ -19,5 +19,5 @@
 }
 
 .hide{
-    display: none;
+  display: none;
 }

@@ -3,7 +3,7 @@ import TextInput from '../TextInput/TextInput.js';
 import Button from '../Button/Button';
 import {useState} from 'react';
 import { useDispatch } from 'react-redux';
-import { addList } from '../../redux/store.js';
+import { addList } from '../../redux/listsRedux.js';
 
 const ListForm = () => {
 
@@ -24,7 +24,7 @@ const ListForm = () => {
     <form className={styles.columnForm} onSubmit={handleSubmit}>
       Title:<TextInput extraStyles={styles.changeInput} value={title} onChange={e => setTitle(e.target.value)} />
       Description:<TextInput extraStyles={styles.changeInput} value={description} onChange={e => setDescription(e.target.value)} />
-    <Button extraStyles={styles.changeButton}>Add column</Button>
+    <Button extraStyles={styles.changeButton}>Add list</Button>
   </form>
   );
 };
